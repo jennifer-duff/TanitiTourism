@@ -93,9 +93,20 @@ h1{
     position: relative;
     top: -60px;
     text-shadow: 0px 0px 40px black, 0px 0px 40px black, 0px 0px 40px rgb(37, 37, 37);
+    margin-bottom: 10px;
     /* text-shadow: 0px 0px 20px ; */
 }
 
+main p{
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    text-shadow: 0px 0px 20px black, 0px 0px 20px black, 0px 0px 20px black, 0px 0px 20px black;
+    margin-top: -15px;
+
+}
 /* --------------- FOOTER  ---------------*/
 footer{
     box-sizing: border-box;
@@ -107,14 +118,14 @@ footer{
     background-image: linear-gradient(transparent, rgb(33, 101, 102));
 }
 
-#photoCred{
+footer p{
     text-align: right;
     margin: 100px 0 2px 0;
     font-weight: 500;
     color: white;
     text-shadow: 0px 0px 10px black, 0px 0px 10px black;
 }
-#photoCred a
+footer #photoCred a
 {
     color: white;
 }
@@ -144,7 +155,7 @@ footer #footerNavLinks{
     display: grid;
     grid-template-columns: 55px 1fr 55px 1fr 117px 1fr 70px 1fr 130px 1fr 50px;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 10vw;
 
 }
 
