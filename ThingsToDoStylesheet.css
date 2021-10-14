@@ -51,5 +51,46 @@ p{
     font-weight: 400;
     line-height: 2rem;
     vertical-align: top;
-    margin-top: 0;
+    margin: 10px 0 50px 0;
+}
+#contentContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.linkBox{
+    opacity: 70%;
+    transition: opacity 0.3s ease-in-out;
+    text-align: center;
+}
+
+.linkBox:hover{
+    /* font-weight: 600; */
+    opacity: 100%;
+
+}
+.ThingToDoLink{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30pt;
+    font-weight: 600    
+    /* transition: font-weight 0.3s ease-in-out; */
+}
+main img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+
+.photoCred{
+    font-size: 10pt;
+    margin-top: -5px;
+    text-align: left;
+}
+
+.photoCred a{
+    color: black;
+    text-decoration: underline solid black;
 }
