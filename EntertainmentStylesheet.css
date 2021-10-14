@@ -28,7 +28,7 @@ main {
 }
 
 #headerContainer{
-    max-width: 480px;
+    max-width: 430px;
     margin-left: 5px;
     margin-bottom: 0px;
     height: 100px;
@@ -82,4 +82,9 @@ p{
     line-height: 2rem;
     margin: 20px 0;
     vertical-align: top;
+}
+
+li{
+    font-size: 16pt;
+    line-height: 2rem;
 }

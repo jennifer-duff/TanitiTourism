@@ -20,6 +20,11 @@ main {
 
 #breadcrumbs{
     letter-spacing: 2px;
+    color: black;
+}
+
+#breadcrumbs a:visited{
+    color: black;
 }
 
 #headerContainer{

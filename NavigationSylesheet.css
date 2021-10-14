@@ -26,6 +26,7 @@ header{
     box-shadow: 2px 2px 5px rgb(138, 138, 138);
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 

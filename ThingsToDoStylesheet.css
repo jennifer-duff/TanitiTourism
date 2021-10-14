@@ -20,6 +20,11 @@ main {
 
 #breadcrumbs{
     letter-spacing: 2px;
+    color: black;
+}
+
+#breadcrumbs a:visited{
+    color: black;
 }
 
 #headerContainer{
@@ -55,6 +60,7 @@ p{
 }
 #contentContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 50px;
 }
