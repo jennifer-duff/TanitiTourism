@@ -1,0 +1,55 @@
+/* --------------- GENERAL FORMATTING ---------------*/
+body{
+    box-sizing: border-box;
+    font-family: freight-sans-pro, 'Helvetica Nue', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* --------------- MAIN ---------------*/
+main {
+    margin: 125px 19vw 0 19vw;
+    min-height: calc(100vh - 125px - 175px);
+    box-sizing: border-box;
+}
+
+#breadcrumbs{
+    letter-spacing: 2px;
+}
+
+#headerContainer{
+    max-width: 375px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    height: 100px;
+
+}
+
+h1{
+    margin-top: 60px;
+    font-size: 50pt;
+    font-weight: 600;
+}
+
+#underline{
+    background-color: rgb(95, 200, 214);
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: -71px;
+    left: -5px;
+    z-index: -1;
+}
+
+p{
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 2rem;
+    vertical-align: top;
+    margin-top: 0;
+}
