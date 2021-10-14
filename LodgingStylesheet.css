@@ -23,7 +23,7 @@ main {
 }
 
 #headerContainer{
-    max-width: 375px;
+    max-width: 240px;
     margin-left: 5px;
     margin-bottom: 0px;
     height: 100px;
@@ -55,20 +55,23 @@ p{
 }
 #contentContainer{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin-bottom: 50px;
+    margin-left: -20px;
 }
 .linkBox{
     opacity: 70%;
     transition: opacity 0.3s ease-in-out;
     text-align: center;
+    margin: 0 20px -30px 20px;
 }
 
 .linkBox:hover{
     /* font-weight: 600; */
     opacity: 100%;
-
 }
+
 .ThingToDoLink{
     color: black;
     text-align: center;
